@@ -1,2 +1,22 @@
 Instructions for Client
 ========================
+
+Setup:
+-------
+
+Two files: 'wakeserver.py' and 'shutserver.py'. 
+
+* For 'wakeserver.py': replace the MAC address inside with MAC address of your server. 
+* For 'shutserver.py': replace the server IP address with your own server IP.
+
+Usage:
+------
+
+* To start the server: 
+
+<path-to-python>/python wakeserver.py 
+
+
+* To shutdown the server: 
+
+<path-to-python>/python shutserver.py

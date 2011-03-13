@@ -1,0 +1,21 @@
+Instructions for Server
+========================
+
+*Note: The server is running FreeBSD 8.2 on AMD64 iron, with minor modifications the following
+steps should be applicable to other Linux/Unix machines*
+
+Setup:
+-------
+
+* Edit 'rc.d/shutserverd' to make sure the 'command' line points to the location where you saved
+shutserverd.py 
+* Put rc.d/shutserverd in the /usr/local/etc/rc.d. 
+* Add 'shutserverd_enable="YES"' into /etc/rc.conf
+* Put 'pyDaemon.py' and 'shutserverd.py' together
+* For 'shutserverd.py': edit and put your own server IP
+
+Usage:
+------
+
+* If everything goes well, 'shutserverd.py' will be run during system bootup and listens
+to port 9999. Once a message is received, it will invoke '/sbin/shutdown' to power off the server

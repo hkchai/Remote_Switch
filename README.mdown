@@ -17,21 +17,14 @@ Assumptions:
 
 * Both of your server and client has a running copy of python. My version is 2.6.6, but all recent versions should
 be fine.
-* Your server motherboard supports wake-on-lan and this feature is enabled.
+* Your server motherboard supports wake-on-LAN and this feature is enabled.
 * My laptop is a mac while the server is running FreeBSD 8.2. However the instructions and scripts
 will be able to run on most *nix or even Windows machines with minimal modifications.
 
 Steps:
 
-1. First clone the github project and you shall get 2 folders: 'client' and 'server'
-2. The client folder consists of two files: 'wakeserver.py' and 'shutserver.py'. You will need
-to modify 'wakeserver.py' and replace the MAC address inside with MAC address of your server. 
-For 'shutserver.py' you will need to replace the server IP address with your own server IP.
-3. The server folder consists of an 'rc.d' folder and two files. Inside the 'rc.d' folder is
-the BSD style startup script for the daemon. You will need to modify the shutserverd script to
-point the 'command' to your shutserverd.py file location.
-4. The two files in the server folder are: pyDaemon.py and shutserverd.py. You will need to modify
-the shutserverd.py file to make sure the IP of the server is correct.
+1. Clone the github project and you shall get 2 folders: 'client' and 'server'
+2. Follow the instructions in the 'client' and 'server' folders
 
 IMPORTANT:
 ==========

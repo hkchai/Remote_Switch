@@ -11,7 +11,7 @@ Setup:
 shutserverd.py 
 * Put rc.d/shutserverd in the /usr/local/etc/rc.d. 
 * Add `shutserverd_enable="YES"` into /etc/rc.conf
-* Put `pyDaemon.py` and `shutserverd.py` together
+* Put `pyDaemon.py` and `shutserverd.py` at the same folder
 * For `shutserverd.py`: edit and put your own server IP
 
 Usage:

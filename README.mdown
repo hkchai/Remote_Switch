@@ -10,8 +10,8 @@ of my investigation.
 
 Terminology:
 
-* The server of which you want to remotely administrate is aptly called `server`
-* The device from which you will administrate the server will be called `client`
+* 'server' refers to the machine of which you want to remotely administrate
+* 'client' refers to the device from which you will administrate the server
 
 Assumptions:
 

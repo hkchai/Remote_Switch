@@ -4,10 +4,10 @@ Instructions for Client
 Setup:
 -------
 
-Two files: 'wakeserver.py' and 'shutserver.py'. 
+Two files: `wakeserver.py` and `shutserver.py`. 
 
-* For 'wakeserver.py': replace the MAC address inside with MAC address of your server. 
-* For 'shutserver.py': replace the server IP address with your own server IP.
+* For `wakeserver.py`: replace the MAC address inside with MAC address of your server. 
+* For `shutserver.py`: replace the server IP address with your own server IP.
 
 Usage:
 ------

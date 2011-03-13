@@ -2,17 +2,19 @@ Remote Server Wake-up and Shutdown
 ===================================
 
 Problem Statement:
-All my files are stored in a server that runs [ZFS] (http://en.wikipedia.org/wiki/ZFS),
+All my files are stored in a server that runs [ZFS](http://en.wikipedia.org/wiki/ZFS),
 the problem is most of my development is done at my laptop. A lazy guy I am, I find the need to 
 turn on both machines a bit boring and time-consuming. I spent a weekend to investigate how 
 I could remotely turn on/off the machine from my laptop, and this project is the result
 of my investigation.
 
 Terminology:
+
 * The server of which you want to remotely administrate is aptly called 'server'
 * The device from which you will administrate the server will be called 'client'
 
 Assumptions:
+
 * Both of your server and client has a running copy of python. My version is 2.6.6, but all recent versions should
 be fine.
 * Your server motherboard supports wake-on-lan and this feature is enabled.
@@ -20,6 +22,7 @@ be fine.
 will be able to run on most *nix or even Windows machines with minimal modifications.
 
 Steps:
+
 1. First clone the github project and you shall get 2 folders: 'client' and 'server'
 2. The client folder consists of two files: 'wakeserver.py' and 'shutserver.py'. You will need
 to modify 'wakeserver.py' and replace the MAC address inside with MAC address of your server. 

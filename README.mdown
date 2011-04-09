@@ -30,6 +30,5 @@ IMPORTANT:
 ==========
 1. The scripts are assuming python is at /usr/local/bin. This is true for my machine, please
 verify its location at your end.
-2. The wake-on-lan only works when the system is in soft-shutdown. In other words, if your system
-previously had its power cord yanked and now just connected back, it won`t be able to wake up from network activity.
+2. The wake-on-lan only works when the system is in soft-shutdown. In other words, if your system had a cold shutdown (i.e. power supply off), it won`t be able to wake up from network activity.
 
